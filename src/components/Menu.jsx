@@ -1,18 +1,15 @@
 import {
-  IconActivity,
   IconAddressBook,
-  IconBrand4chan,
   IconBrandReact,
   IconHome,
   IconInfoCircle,
-  IconMessage2Down,
   IconMessageDown,
   IconMessageUp,
-  IconRouteAltLeft,
   IconSquareRoundedNumber1,
   IconSquareRoundedNumber2,
   IconSquareRoundedNumber3,
   IconSquareRoundedNumber4,
+  IconSquareRoundedNumber5,
 } from "@tabler/icons-react";
 import { NavLink } from "react-router-dom";
 
@@ -37,11 +34,11 @@ export function Menu() {
   };
 
   return (
-    <aside className="flex flex-col gap-5 bg-custom-black min-w-72">
+    <aside className="flex flex-col gap-5 bg-red-800 min-w-72">
       <header
         className={`
           flex justify-center items-center gap-2
-          bg-custom-black text-custom-white 
+          bg-red-900 text-custom-white 
           px-1 py-5 h-16          
           text-2xl font-black
         `}
@@ -102,6 +99,12 @@ export function Menu() {
           <IconMessageUp />
           ComunicacaoIndireta
         </NavLink>
+
+        <NavLink to="Tradutor" className={getEstilo}>
+          <IconSquareRoundedNumber5 />
+          Tradutor
+        </NavLink>
+
 
         <span className="pt-4 pl-3 text-xs text-zinc-500">Hooks Básicos</span>
         

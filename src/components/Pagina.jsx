@@ -6,7 +6,7 @@ export function Pagina(props) {
             flex flex-col justify-center items-start
             px-5 h-16
             border-b border-custom-gray2
-            bg-custom-gray text-custom-white
+            bg-red-900 text-custom-white
         `}
       >
         <h1 className="text-xl font-black">{props.titulo}</h1>
@@ -16,7 +16,7 @@ export function Pagina(props) {
         className={`
             flex items-start flex-1
             p-4
-            bg-custom-gray2 
+            bg-blue-950
             text-base text-custom-white
         `}
       >

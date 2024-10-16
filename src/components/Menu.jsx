@@ -87,6 +87,11 @@ export function Menu() {
           <IconSquareRoundedNumber4 />
           Contador
         </NavLink>
+        
+        <NavLink to="Tradutor" className={getEstilo}>
+          <IconSquareRoundedNumber5 />
+          Tradutor
+        </NavLink>
 
         <span className="pt-4 pl-3 text-xs text-zinc-500">Comunicação</span>
         
@@ -100,10 +105,6 @@ export function Menu() {
           ComunicacaoIndireta
         </NavLink>
 
-        <NavLink to="Tradutor" className={getEstilo}>
-          <IconSquareRoundedNumber5 />
-          Tradutor
-        </NavLink>
 
 
         <span className="pt-4 pl-3 text-xs text-zinc-500">Hooks Básicos</span>

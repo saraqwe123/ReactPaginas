@@ -6,7 +6,7 @@ export function UseRef() {
     const referencia = useRef(0)
 
     function incrementaEstado() {
-        setEstado(estado + 1)
+        setEstado(estado + 1) 
     }
 
     function incrementaReferencia() {
